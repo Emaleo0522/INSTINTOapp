@@ -200,34 +200,13 @@ class _LoginScreenState extends State<LoginScreen> with TickerProviderStateMixin
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            // Logo/Título
+                            // Logo
                             Container(
-                              padding: const EdgeInsets.all(20),
-                              decoration: BoxDecoration(
-                                color: Colors.white.withOpacity(0.1),
-                                borderRadius: BorderRadius.circular(20),
-                                border: Border.all(
-                                  color: Colors.white.withOpacity(0.3),
-                                ),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black.withOpacity(0.3),
-                                    blurRadius: 20,
-                                    spreadRadius: 5,
-                                  ),
-                                ],
-                              ),
-                              child: Column(
-                                children: [
-                                  Container(
-                                    width: 200,
-                                    height: 160,
-                                    child: Image.asset(
-                                      'assets/images/logo_instincto_correct.png',
-                                      fit: BoxFit.contain,
-                                    ),
-                                  ),
-                                ],
+                              width: 300,
+                              height: 240,
+                              child: Image.asset(
+                                'assets/images/logo_instincto_correct.png',
+                                fit: BoxFit.contain,
                               ),
                             ),
                             const SizedBox(height: 40),
